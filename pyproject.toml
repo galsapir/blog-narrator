@@ -22,6 +22,7 @@ classifiers = [
 dependencies = [
     "mlx-audio>=0.3",
     "misaki",
+    "num2words",
     "mutagen>=1.47",
     "pyyaml>=6.0",
 ]
