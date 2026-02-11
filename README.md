@@ -12,6 +12,11 @@ Add AI-narrated audio to your Jekyll blog posts. Runs locally on Apple Silicon v
 pip install git+https://github.com/galsapir/blog-narrator.git
 ```
 
+> **uv users:** mlx-audio depends on a pre-release of transformers, so you'll need:
+> ```bash
+> uv pip install --prerelease=allow git+https://github.com/galsapir/blog-narrator.git
+> ```
+
 ### 2. Configure
 
 Copy the example config to your blog root and edit it:
