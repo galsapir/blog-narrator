@@ -9,7 +9,7 @@ Add AI-narrated audio to your Jekyll blog posts. Runs locally on Apple Silicon v
 ### 1. Install
 
 ```bash
-pip install blog-narrator
+pip install git+https://github.com/galsapir/blog-narrator.git
 ```
 
 ### 2. Configure
