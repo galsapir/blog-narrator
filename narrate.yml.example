@@ -1,0 +1,18 @@
+# blog-narrator configuration
+# Copy this file to narrate.yml in your blog root and customize.
+
+# Blog metadata (used for ID3 tags)
+author: "Your Name"
+blog_name: "Your Blog"
+
+# TTS settings
+voice: "af_heart"       # Kokoro voice preset (see README for options)
+speed: 1.0              # Speech speed multiplier
+lang_code: "a"          # "a" = American English, "b" = British English
+
+# File paths (relative to blog root)
+audio_dir: "assets/audio"
+posts_dir: "_posts"
+
+# Minimum word count to generate narration
+min_words: 300
